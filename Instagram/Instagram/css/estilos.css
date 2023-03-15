@@ -1,0 +1,66 @@
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial;
+}
+
+
+#login{
+    margin-left: 30px;
+
+}
+
+#foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ins{
+    justify-content: center;
+    width: 300px;
+   
+}
+
+.ronaldo{
+    justify-content: center;
+    width: 222px;
+    border-radius: 50%;
+    
+}
+
+
+
+#uno{
+color: white;
+font-family: Arial;
+padding: 10px 5px;
+background-color: rgb(0, 149, 246);
+border-radius: 10px;
+font-size: 20px;
+text-decoration: none;
+}
+
+#dois{
+    color: rgb(0, 149, 246);
+    font-size: 20px;
+}
+
+#uno:hover{
+    font-weight: bold
+}
+
+#dois:hover{
+font-weight: bold
+}
+
+#tre{
+    color: rgb(0, 149, 246);
+    font-size: 20px;
+}
+
+#ttt{
+    font-size: 20px;
+    color: gray;
+}
