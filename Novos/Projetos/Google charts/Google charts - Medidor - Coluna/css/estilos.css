@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding: 5px 0;
+    background-color: red;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 4px 4px 8px black;
+}
+
+#container {
+    display: flex;
+}
+
+#coluna {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100vh;
+}
+
+#medidor {
+    background-color: burlywood;
+    width: 50%;
+    height: 100vh;
+}
+
+#chart-coluna {
+    height: 100%;
+}
+
+#chart-medidor {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

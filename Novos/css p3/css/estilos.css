@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.caixa-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: green;
+    color: ghostwhite;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 30px 50px;
+    padding: 10px;
+}
+
+#ex1{
+    border-radius: 30px;
+}
+
+#ex2{
+    border-radius: 15px 30px;
+}
+
+#ex3{
+    border-radius: 15px 50px 30px 5px;
+}
+
+#ex4{
+    border-top-left-radius: 80px 35px;
+    border-bottom-right-radius: 60px 100px;
+}
+
+#sombra1{
+    text-shadow: 2px 2px;
+}
+
+p{
+    text-align: center;
+}
+
+#sombra2{
+    text-shadow: 2px 2px red;
+}
+
+#sombra3{
+    text-shadow: 3px 3px 6px red;
+}
+
+#sombra4{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+#sombra5{
+    text-shadow: 0 0 6px red;
+}
+
+#sombra6{
+    text-shadow: 0 0 10px red, 0 0 20px blue;
+}
+
+#sombra7{
+    color: white;
+    text-shadow: 2px 2px 5px black, 0 0 20px blue, 0 0 15px darkblue;
+}
+
+#sombra8{
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#sombracaixa1{
+    box-shadow: 10px 10px lightblue;
+}
+
+#sombracaixa2{
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+#sombracaixa3{
+    box-shadow: 10px 10px 5px lightblue inset;
+}
+
+#sombracaixa4{
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+.retangulo{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#gradiente1{
+    background-image: linear-gradient(purple, orange);
+}
+
+#gradiente2{
+    background-image: linear-gradient(to right,purple, red);
+}
+
+#gradiente3{
+    background-image: linear-gradient(to bottom right, purple, yellow);
+}
+
+#gradiente4{
+    background-image: linear-gradient(purple, orange, purple);
+}
+
+#gradiente5{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#gradiente6{
+    background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#gradiente7{
+    background-image: radial-gradient(red 5%, yellow 35%, green 60%);
+}
+
+#gradiente8{
+    background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+    height: 350px;
+}
+
+#gradiente9{
+    background-image: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#gradiente10{
+    background-image: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#gradiente11{
+    background-image: conic-gradient(red 0deg, red 52deg, orange 52deg, orange 104deg, yellow 104deg, yellow 156deg, green 156deg, green 208deg, blue 208deg, blue 260deg, indigo 260deg, indigo 312deg, violet 312deg, violet 360deg);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#caixa1:hover{
+    background-color: yellow;
+    transform: translate(50px,100px);
+}
+
+#caixa2:hover{
+    background-color: purple;
+    transform: rotate(297deg);
+}
+
+#caixa3:hover{
+    background-color: darkblue;
+    transform: scale(2,3);
+}
+
+#caixa4:hover{
+    background-color: darkviolet;
+    transform: scale(0.5,0.5);
+}
+
+#caixa5:hover{
+    background-color: fuchsia;
+    transform: skewY(96deg);
+}
+
+#caixa6:hover{
+    background-color: orange;
+    transform: skewX(78deg);
+}
+
+#caixa7:hover{
+    background-color: aqua;
+    transform: skew(49deg, 177deg);
+}
+
+#caixa8:hover{
+    background-color: darksalmon;
+    transform: matrix(3,-5,2,4,1.4,9);
+}
+
+#caixa9:hover{
+    background-color: indigo;
+    transform: rotateX(180deg);
+}
+
+#caixa10:hover{
+    background-color: chartreuse;
+    transform: rotateY(180deg);
+}
+
+#caixa11:hover{
+    background-color: peru;
+    transform: rotateZ(90deg);
+}

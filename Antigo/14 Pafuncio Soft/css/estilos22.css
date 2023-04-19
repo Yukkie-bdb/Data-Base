@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+header{
+    background-color: #00160d;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#logo{
+    padding-bottom: 15px;
+    height: 150px;
+}
+
+#img-topo{
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/imagem-topo.png");
+    background-size: cover;
+}
+
+nav{
+    background-color: #1b4332;
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+nav a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #081c15;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+#container{
+    padding: 20px 100px 50px 100px;
+    text-align: center;
+}
+
+h1{
+    color: #22577a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#destaques{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#destaques a{
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#destaques a:hover{
+    opacity: 1;
+}
+
+/* estilos para a página sobre.html  */
+
+#conteudo-empresa{
+    display: flex;
+    padding-top: 30px;
+}
+
+#conteudo-empresa p{
+    text-align: justify;
+    padding-left: 50px;
+}
+
+#selo{
+    margin-top: 35px;
+    height: 113px;
+}
+
+/* estilos para a página soluçoes.html */
+
+h2{
+    color: #22577a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.destaques-produtos{
+    padding: 0px 15px;
+}
+
+.destaques-produtos a{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/* casos.html */
+
+.detalhes{
+    display: flex;
+    padding-top: 35px;
+}
+
+.detalhes img{
+    padding-right: 30px;
+}

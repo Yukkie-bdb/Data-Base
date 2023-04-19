@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link href="css/formulario.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Pedido de Compras</h1>
+        <form id="form">
+            <label for="codigo">
+                código
+            </label>
+            <input type="text" name="codigo" class="campo" placeholder="digite o código..." required>
+            <br>
+            <label for="data">
+                data:
+            </label>
+            <input type="date" name="data" class="campo" required>
+            <label for="hora">
+                Horário:
+            </label>
+            <input type="time" name="hora" class="campo" required>
+            <br>
+            <label for="usuario">
+                usuário
+            </label>
+            <input id="email" type="email" name="usuario" class="campo" placeholder="digite seu e-mail" required>
+            <br>
+            <label for="senha">
+                senha:
+            </label>
+            <input type="password" id="senha" name="senha" class="campo" placeholder="digite sua senha" required>
+            <label for="empresa">
+                empresa:
+            </label>
+            <input type="text" name="empresa" class="campo" value="nome da empresa" readonly>
+            <br>
+            <label for="codigoitem">
+                código do Produto:
+            </label>
+            <input type="number" name="codigoitem" class="campo" required>
+            <br>
+            <label for="cor">
+                cor:
+            </label>
+            <input type="color" name="cor" required">
+            <label for="valor">
+                valor:
+            </label>
+            <input type="text" name="valor" class="campo" placeholder="R$999,99" required>
+            <label for="anexo">
+                anexar arquivo
+            </label>
+            <input type="file" class="campo" required>
+            <br>
+            <label for="obs">Observações</label>
+            <textarea name="obs" id="obs" class="campo" rows="3"></textarea>
+            <br>
+            <br>
+            <br>
+            <label for="radiobutton">selecione uma opção:</label>
+            <input type="radio" class="campo" name="radiobutton" value="cru" required><span>cru</span>
+            <input type="radio" class="campo" name="radiobutton" value="cozido" required><span>cozido</span>
+            <input type="radio" class="campo" name="radiobutton" value="torrado" required><span>torrado</span>
+            <br>
+            <br>
+            <label for="check">selecione uma ou mais opções:</label>
+            <input type="checkbox" name="check1" value="africano" class="campo"><span>africano</span>
+            <input type="checkbox" name="check2" value="americano" class="campo"><span>americano</span>
+            <input type="checkbox" name="check3" value="europeu" class="campo"><span>europeu</span>
+            <input type="checkbox" name="check4" value="asiatico" class="campo"><span>asiatico</span>
+            <br>
+            <input type="submit" value="enviar" class="campo">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,645 @@
+.flex {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: #bbe5ff;
+
+}
+
+footer {
+    background-color: #609dc5;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+/* ----------------------- */
+#logoeimg {
+    height: 24vh;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#logo-title {
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+}
+
+#idheader {
+    align-items: center;
+    text-decoration: underline;
+
+}
+
+#imglogo {
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+#cinco {
+    display: flex;
+    justify-content: center;
+}
+
+#menuhorizontal ul {
+    background-color: #609dc5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menuhorizontal li a {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#menuhorizontal li {
+    text-align: center;
+}
+
+#menuhorizontal li:last-child {
+    float: right;
+    margin-left: auto;
+    border-right: none;
+}
+
+#menuhorizontal li a:hover {
+    background-color: #00B483;
+}
+
+#menuhorizontal {
+    padding: 0 0 10px 0;
+}
+
+/* -------------- */
+
+
+#container {
+    padding: 20px 100px 50px 100px;
+    text-align: center;
+
+
+}
+
+
+
+#conteudo-empresa {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+
+
+}
+
+#video-empresa {
+    width: 50%;
+
+}
+
+#video-empresa video {
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+
+#texto-empresa {
+    width: 50%;
+    background-color: #bbe5ff;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+
+#conteudo-empresa p {
+    text-align: justify;
+    padding-left: 50px;
+}
+
+#Funcionarios {
+    padding-top: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+}
+
+
+#Funcionarios a {
+    text-decoration: none;
+    display: flex;
+    /* opacity: 0.9; */
+}
+
+#Funcionarios a:hover {
+    /* opacity: 1.0; */
+    background-color: #00B483;
+
+}
+
+#Funfunarios {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+#Funfunarios h1 {
+    padding: 30px;
+    text-align: center;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+    margin: 0px 180px 50px 180px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+    text-decoration: underline;
+}
+
+
+#imgfuncio0:hover {
+    content: url(../Imagens/funcionarios/Design\ sem\ nome1.png);
+}
+
+#imgfuncio1:hover {
+    content: url(../Imagens/funcionarios/Design\ sem\ nome\ \(1\)1.png);
+}
+
+#imgfuncio2:hover {
+    content: url(../Imagens/funcionarios/Design\ sem\ nome\ \(2\)1.png);
+}
+
+#imgfuncio3:hover {
+    content: url(../Imagens/funcionarios/Design\ sem\ nome\ \(3\)1.png);
+}
+
+#coluna {
+    display: flex;
+}
+
+#coluna img {
+    width: 100%;
+}
+
+
+
+
+
+
+#Alvara {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #bbe5ff;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+}
+
+#Alvara h1 {
+    margin: 0px 180px 50px 180px;
+
+}
+
+#missao-visao-valores {
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px;
+
+    border-radius: 50px;
+    background-color: #bbe5ff;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+
+}
+
+
+
+
+
+
+.imagem {
+    position: relative;
+    display: inline-block;
+
+}
+
+.texto-imagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: left;
+    margin: 1px;
+    line-height: 1.5;
+}
+
+.imagem:hover .texto-imagem {
+    opacity: 1;
+}
+
+.titulopetshop {
+
+
+    padding: 30px;
+    text-align: center;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin: 0px 180px 50px 180px;
+
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+    text-decoration: underline;
+}
+
+#titulopetshop {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#underlinenone {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+    #container {
+        width: 100%;
+        padding: 0;
+    }
+
+    #Alvara img {
+        width: 100%;
+    }
+
+    #container .flex {
+        flex-direction: column;
+    }
+
+    .titulopetshop {
+        margin: 0;
+        text-decoration: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    #Funfunarios h1 {
+        margin: 0;
+        text-decoration: none;
+    }
+
+    #Funfunarios {
+        /* padding-top: 15px;
+        padding-bottom: 35px; */
+        padding: 15px 5px 35px 5px;
+    }
+
+    #coluna {
+        flex-direction: column;
+        padding-top: 35px;
+
+    }
+
+
+    #Alvara h1 {
+        margin: 0;
+    }
+
+    #conteudo-empresa {
+        width: 75%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+
+
+    }
+
+    #missao-visao-valores {
+        width: 85%;
+        padding: 15px;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    #Funcionarios {
+        width: 80%;
+        padding: 5px;
+    }
+
+    #Alvara {
+        padding: 15px 0 15px 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #texto-empresa {
+        width: 100%;
+    }
+
+    #texto-empresa li {
+        margin-bottom: 30px;
+    }
+
+    #video-empresa {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-top: 30px;
+
+    }
+
+    #video-empresa video {
+        border-radius: 0;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #menuhorizontal li a {
+        padding: 10px 4px;
+        font-size: 20px;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {}
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #container {
+        width: 100%;
+        padding: 0;
+    }
+
+    #Alvara img {
+        width: 100%;
+    }
+
+    #container .flex {
+        flex-direction: column;
+    }
+
+    .titulopetshop {
+        margin: 0;
+        text-decoration: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    #Funfunarios h1 {
+        margin: 0;
+        text-decoration: none;
+    }
+
+    #Funfunarios {
+        /* padding-top: 15px;
+        padding-bottom: 35px; */
+        padding: 15px 5px 35px 5px;
+    }
+
+    #coluna {
+        flex-direction: column;
+        padding-top: 35px;
+
+    }
+
+
+    #Alvara h1 {
+        margin: 0;
+    }
+
+    #conteudo-empresa {
+        width: 75%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+
+
+    }
+
+    #missao-visao-valores {
+        width: 85%;
+        padding: 15px;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    #Funcionarios {
+        width: 80%;
+        padding: 5px;
+    }
+
+    #Alvara {
+        padding: 15px 0 15px 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #texto-empresa {
+        width: 100%;
+    }
+
+    #texto-empresa li {
+        margin-bottom: 30px;
+    }
+
+    #video-empresa {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-top: 30px;
+
+    }
+
+    #video-empresa video {
+        border-radius: 0;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #menuhorizontal li a {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {}
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+}

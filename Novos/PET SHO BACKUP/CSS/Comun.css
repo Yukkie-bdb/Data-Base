@@ -1,0 +1,47 @@
+
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+
+
+body {
+    background-color: #E4FAFE;
+    font-family: 'Calibri';
+    font-size: 36px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url(../Fontes/calibri.ttf) format(truetype);
+}
+
+header {
+    background-color: #AAD0E8;
+    height: 250px;
+    display: flex;
+}
+
+#Nome {
+    margin-left: 150px;
+}
+
+#Logo {
+    height: 200px;
+    width: 198.4px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+header h1 {
+    font-size: 75px;
+    font-weight:lighter ;
+}
+
+footer{
+    background-color: #AAD0E8;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: px;
+    padding-top: px;
+}

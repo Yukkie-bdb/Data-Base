@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para exemplo 1 */
+
+#lampada {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#botoes {
+    display: flex;
+    margin: 30px 0;
+}
+
+#botoes button {
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+hr {
+    width: 100vh;
+    height: 3px;
+    background-color: black;
+}
+
+/* Estilos para o exemplo 2 */
+
+#tagarela {
+    background-color: white;
+    width: 80%;
+    font-size: 50px;
+    padding: 10px auto;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+
+#btnFalar {
+    width: 200px;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/* Estilos para o exemplo 3 */
+
+#frmExemplo input {
+    padding: 5px;
+}
+
+#frmExemplo button {
+    padding: 5px 20px;
+}
+
+/* Estilos para exemplo 4 */
+
+#Dino1 {
+    height: 292px;
+    min-width: 292px;
+}
+
+#Malaia {
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+/* Exemplo 5 */
+
+#btnChave {
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+}
+
+#preguica{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 50px;
+    padding: 10px auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Exemplo 6 */
+
+#btnAtualizar {
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    min-width: 300px;
+    background-color: chocolate;
+}
+
+tr{ 
+    text-align: center;
+    background-color: white;
+}
+
+.listra {
+    background-color: burlywood;
+}

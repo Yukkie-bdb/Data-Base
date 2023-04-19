@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pafúncio Soft Sistemas</title>
+    <!-- Para poder acessar nossa folha de estilos, temos que inserí-la aqui. -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+    <!-- Barra de topo do site -->
+    <header>
+        <img id="logo" src="img/logo-small.png" alt="logotipo">
+        </div>
+    </header>
+    <!-- Menu do site -->
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="sobre.html">NOSSA EMPRESSA</a>
+        <a href="soluçao.html">SOLUÇÕES</a>
+        <a href="casos.html">CASOS DE SUCESSO</a>
+        <a href="contato.html">CONTATO</a>
+    </nav>
+    <!-- conteúdo(miolo) do site -->
+    <div id="container">
+        <h1>Fale Conosco</h1>
+        <form id="formulario" action="#">
+            <div id="frm-container">
+                <div id="frm-labels">
+                    <p><label for="frm-tipo-contato">Tipo de contato</label></p>
+                    <p><label for="frm-nome">Nome</label></p>
+                    <p><label for="frm-email">Email</label></p>
+                    <p><label for="frm-telefone">Telefone</label></p>
+                    <p><label for="frm-mensagem">Mensagem</label></p>
+                </div>
+                <div id="frm-fields">
+                    <p>
+                        <select name="frm-tipo-contato">
+                            <option value="orcamento">Orçamento</option>
+                            <option value="Pedidos">Pedidos de compra</option>
+                            <option value="feedback">Críticas e sugestões</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </p>
+                    <p><input name="frm-nome" type="text" placeholder="Digite seu nome" required></p>
+                    <p><input name="frm-email" type="email" placeholder="nome@yahoo.com" required></p>
+                    <p><input name="frm-telefone" type="tel" placeholder="(99) 99999-9999"></p>
+                    <p><textarea name="frm-mensagem" rows="10" placeholder="Digite sua mensagem"></textarea></p>
+                </div>
+            </div>
+            <div id="frm-buttons">
+                <button id="botao-enviar" type="submit" formaction="#">Enviar</button>
+                <button id="botao-apagar" type="reset">Apagar</button>
+            </div>
+        </form>
+    </div>
+    <!-- Rodapé do site -->
+    <footer>
+        Pafúncion Soft &copy; - Todos os direitos reservados
+    </footer>
+</body>
+
+</html>

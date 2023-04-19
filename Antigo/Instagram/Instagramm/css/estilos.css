@@ -1,0 +1,119 @@
+#conteiner {
+    display: flex;
+
+  justify-content: center;
+    font-family: Arial;
+    padding: 100px;
+}
+
+#celular {
+    margin: 0px 50px 0px 0px;
+}
+
+#login {
+    margin-left: 30px;
+}
+
+#foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ins {
+    justify-content: center;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+.ronaldo {
+    justify-content: center;
+    width: 222px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+
+
+#uno {
+    color: white;
+    font-family: Arial;
+    padding: 10px 5px;
+    background-color: rgb(0, 149, 246);
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+#dois {
+    color: rgb(0, 149, 246);
+    font-size: 20px;
+}
+
+
+
+
+
+#tre {
+    color: rgb(0, 149, 246);
+    font-size: 20px;
+}
+
+#ttt {
+    font-size: 20px;
+    color: gray;
+}
+
+#baixar {
+    text-align: center;
+    
+}
+
+
+#baixar img {
+    text-align: center;
+    width: 200px;
+
+}
+
+#nao {
+    text-align: center;
+}
+
+#app{
+    padding-right: 10px;
+}
+
+#goog{
+    padding-left: 10px;
+}
+
+
+
+/*
+.azul{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.cinza{
+    background-color: darkgrey;
+}
+*/

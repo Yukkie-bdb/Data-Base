@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4FBF9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 7px 0;
+    box-shadow: 1px 1px 8px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#titulo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+
+
+#titulo {
+    margin-left: 20px;
+    display: flex;
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
+
+
+
+
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+#mapaMundi {
+    width: 900px;
+    height: 500px;
+}
+
+#caixamapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */

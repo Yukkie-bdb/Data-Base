@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="css/Agendamento.css" />
+
+    <title>Faça o seu agendamento</title>
+    <link rel="icon" type="image/icon" href="Imagens/image - Copia.png">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="idheader" class="flex">
+
+            <div id="logoeimg">
+                <img src="Imagens/logonova.png" id="imglogo" class="boximg">
+            </div>
+            <div id="logo-title">
+                <h1 id="h1h1h1" class="center-text">LITTLE PET SHOP</h1>
+            </div>
+
+
+        </div>
+
+
+
+        <nav id="menuhorizontal">
+            <ul id="cinco">
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Sobre.html">SOBRE</a></li>
+                <li><a href="Nossos-servicos.html"> SERVIÇOS</a></li>
+                <li><a href="Contato.html">CONTATOS</a></li>
+                <li><a href="Agendamento.html">AGENDAMENTO</a></li>
+                <li><a href="Cadastro.html">CADASTRO</a></li>
+                <li><a href="Login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div id="container">
+
+        <div id="horarios-info">
+
+            <h1>AGENDE SEU HORÁRIO</h1>
+            <form action="#">
+
+                <div class="caixa-master">
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/briefcase.png">Tipo de Serviço</p>
+                        <select class="caixinha" required>
+                            <option>Banho R$25,00</option>
+                            <option>Tosa R$25,00</option>
+                            <option>Banho e Tosa R$45,00</option>
+                            <option>Vacinação R$20,00</option>
+                            <option>Consulta Veteninária R$50,00</option>
+                            <option>Pacote(todos os serviços) R$100,00</option>
+                        </select>
+                    </div>
+
+                    <div class="caixa-direita">
+                        <p><img class="fotinha" src="Imagens/dog23.png">O animal que será levado</p>
+                        <select class="caixinha" required>
+                            <option>(aqui vai aparecer os animais cadastrados)</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="caixa-master">
+
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/truck.png">Transporte do Pet</p>
+                        <select class="caixinha2" required>
+                            <option>O cliente vem buscar</option>
+                            <option>Nós iremos buscar</option>
+                            <option>O pet vem sozinho</option>
+                        </select>
+                    </div>
+
+                    <div class="caixa-direita">
+                        <p><img class="fotinha" src="Imagens/alternate-calendar.png">Data</p>
+                        <input type="date" class="caixinha2" required>
+                    </div>
+
+                    <div class="caixa-direita">
+                        <p><img class="fotinha" src="Imagens/clock.png">Horário</p>
+                        <input type="time" class="caixinha2" required>
+                    </div>
+
+                </div>
+
+                <div class="caixa-master">
+
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/credit-card.png">Forma de pagamento</p>
+                        <select class="caixinha" required>
+                            <option>Dinheiro</option>
+                            <option>Cheque</option>
+                            <option>Boleto</option>
+                            <option>Pix</option>
+                            <option>Cartão de crédito</option>
+                        </select>
+                    </div>
+                    <div class="caixa-direita">
+                        <p><img class="fotinha" src="Imagens/barcode.png">Código para desconto</p>
+                        <input class="caixinha" type="text" placeholder="Insira seus Cupons aqui">
+                    </div>
+                </div>
+                <div class="caixa-master">
+                    <button class="botao-agenda" type="submit" formaction="#">AGENDAR</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div id="horarios">
+
+            <h1 id="horario-texto">Horários</h1>
+
+            <div id="caixa-dentro">
+                <div style="text-align: left;">
+                    <p class="padEsquerda">SEGUNDA</p>
+                    <p class="padEsquerda">TERÇA</p>
+                    <p class="padEsquerda">QUARTA</p>
+                    <p class="padEsquerda">QUINTA</p>
+                    <p class="padEsquerda">SEXTA</p>
+                    <p class="padEsquerda">SÁBADO</p>
+                    <p class="padEsquerda">DOMINGO</p>
+                    <p class="padEsquerda">FERIADOS</p>
+                </div>
+                <div class="sumiço2"> &NonBreakingSpace;&NonBreakingSpace;</div>
+                <div>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço">________________________</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p>
+
+                </div>
+                <div class="sumiço2">&NonBreakingSpace;&NonBreakingSpace;</div>
+                <div>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">FECHADO</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por: PIMPINHA SOFTERS&reg;</p>
+    </footer>
+
+
+</body>
+
+</html>

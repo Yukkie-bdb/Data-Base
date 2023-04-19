@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Estilos.css">
+    <title>Exemplos de JavaScript</title>
+</head>
+
+<body>
+    <!-- Exemplo 1 - Alterando as cores de uma DIV -->
+    <h1>Brincando com botões</h1>
+    <div id="lampada">
+
+    </div>
+    <div id="botoes">
+        <button onclick="acender('green');">Verde</button>
+        <button onclick="acender('red');">Vermelha</button>
+        <button onclick="acender('blue');">Azul</button>
+        <button onclick="acender('yellow');">Amarelo</button>
+        <button onclick="acender('white');">Apagar</button>
+    </div>
+    <br>
+    <hr>
+
+    <!-- Exemplo 2 - Alterando o conteúdo de uma DIV -->
+    <h1>Brincando com conteúdos</h1>
+    <div id="tagarela">...</div>
+    <br>
+    <button id="btnFalar" onclick="falar();">Fala alguma coisa aí!</button>
+
+    <br>
+    <hr>
+
+    <!-- Exemplo 3 - Validando formulários -->
+    <h1>Validando formulário</h1>
+    <form id="frmExemplo" name="frmExemplo">
+        <input id="inNome" name="inNome" type="text" placeholder="Digite o seu nome">
+        <input id="inIdade" name="inIdade" type="number" placeholder="Digite a sua idade">
+        <button id="btnEnviar" type="button" onclick="validarDados();">
+            Enviar
+        </button>
+    </form>
+
+    <!-- Exemplo 4 - Alterando imagens -->
+
+    <h1>Trocando imagens</h1>
+    <img src="Imagens/images.jfif" id="Dino1">
+    <button id="Malaia" onclick="alterarFoto()">Trocar Imagem</button>
+    <br>
+    <hr>
+
+    <!-- Exemplo 5 - Exibir e ocultar elementos -->
+
+    <h1>Exibindo e ocultando elementos</h1>
+    <button id="btnChave" onclick="mudarVisibilidade()">Exibir</button>
+    <div id="preguica">Vai embora, me deixa dormir zzzzzzzzzzzzzzzzzzzzzzzzzzz</div>
+    <br>
+    <hr>
+
+    <!-- Exemplo 6 - Atualizando dados dinamicamente -->
+
+    <h1>Atualizando dados dinamicamente</h1>
+    <button id="btnAtualizar" onclick="atualizarDados();">Atualizar</button>
+    <table id="dados">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody id="itens"></tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+<script src="Configs.js"></script>
+
+</html>

@@ -1,0 +1,31 @@
+const vet = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    console.table(vet);
+    
+var somapares = 0
+var qqtPares = 0
+var qqtImpares = 0
+var qqtDiv5 = 0
+
+for (let i = 0; i < vet.length; i++) {
+    
+  if (vet[i] % 2 == 0) {
+    
+somapares += vet[i]
+qqtPares++
+
+}  
+
+if (vet[i] % 5 == 0){
+    qqtDiv5++
+ }
+ 
+ else { qqtImpares++ }
+ 
+ 
+ 
+}
+
+console.log("Essas são as somas dos PARES da tabela - ",somapares);
+console.log("Essas são as quantidades de PARES da tabela - ",qqtPares);
+console.log("Essas são as quantidades de IMPARES da tabela - ",qqtPares);
+console.log("Esses são os Numeors de DIVISIVEIS POR 5 da tabela - ",qqtDiv5);

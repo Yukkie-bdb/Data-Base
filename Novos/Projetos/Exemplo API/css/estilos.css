@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+#conteiner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h3{
+    margin: 35px 0px;
+}
+
+#btnObterDados{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    text-shadow: 1px 2px 2px rgb(131, 76, 9);
+    animation: infinite;
+}
+
+#divErro{
+    background-color: firebrick;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
+
+#tabela-dados{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+}
+
+th{
+    background-color: chocolate;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 2px 10px;
+}
+
+.listra{
+    background-color: rgb(241, 208, 184);
+}

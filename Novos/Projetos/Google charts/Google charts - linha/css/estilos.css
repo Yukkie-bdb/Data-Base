@@ -1,0 +1,11 @@
+#area-grafico{
+    border: 1px dotted black;
+    width: 900px;
+    height: 800px;
+    margin: 50px auto;
+}
+
+#grafico-linha{
+    height: 790px;
+    width: 890px;
+}

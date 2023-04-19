@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Anarfa Consultoria - Fale Conosco</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+        <link rel="icon" type="image/icon" href="img/favicon-32x32.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Topo do site -->
+        <header>
+            <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="Logotipo do site" />
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Somos Anarfa</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <!-- Imagem interna para indicar a página -->
+        <div id="imagem-interna">
+            <div id="imagem-interna-header">
+                <span>Fale Conosco</span>
+            </div>
+        </div>
+
+        <!-- Div Container (conteúdo do site) -->
+        <div id="container">
+            <div id="contato-conteudo">
+                <div id="dados-contato">
+                    <h2>Quer falar conosco?</h2>
+                    <p>
+                        Preencha o formulário abaixo para nos enviar uma mensagem.
+                        Responderemos o mais breve possível.
+                    </p>
+                    <form id="frm-contato" action="#">
+                        <input id="frm-empresa" type="text" 
+                               placeholder="Nome da empresa" required
+                        />
+                        <input id="frm-nome" type="text" 
+                               placeholder="Seu nome" required
+                        />
+                        <input id="frm-email" type="email" 
+                               placeholder="nome@dominio.com.br" required
+                        />
+                        <input id="frm-telefone" type="tel" 
+                               placeholder="(99) 99999-9999" required
+                        />
+                        <textarea id="frm-mensagem" rows="10" 
+                               placeholder="Sua mensagem"></textarea>
+
+                        <div id="frm-buttons">
+                            <button id="botao-enviar" type="submit" formaction="#">Enviar</button>
+                            <button id="botao-apagar" type="reset">Apagar</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="mapa">
+                    <iframe id="frame-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.97397162195!2d-48.13464728512317!3d-22.27897578533463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c779adeb5eacc5%3A0x2327f1ea0edb5d95!2sSesi%20Brotas!5e0!3m2!1spt-BR!2sbr!4v1677689311371!5m2!1spt-BR!2sbr" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé do site -->
+        <footer>
+            <p>
+                <span>Anarfa Consultoria</span> <br />
+                Rua dos Anarfa, 35 - Anarfópolis - SP <br />
+                Telefone: (11) 99999-9999
+            </p>
+        </footer>
+    </body>
+</html>

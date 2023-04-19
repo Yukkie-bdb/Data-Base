@@ -1,0 +1,80 @@
+#Nome {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+#Nome {
+    margin-left: 150px;
+
+}
+
+#Logo {
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 15px;
+    float: left;
+}
+
+#imagem-perfil {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00d29a;
+    width: 25%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+#Continuar {
+    background-color: #00d29a;
+    width: 600px;
+    height: 60px;
+    justify-content: center;
+    margin: 40px auto;
+    text-align: center;
+    justify-self: center;
+    border-radius: 15px;
+    
+}
+
+#Doguin {
+    text-decoration: none;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+#Trocar {
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #a8cdd0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#trocar_usuario {
+    vertical-align: middle;
+    background-color: #00d29a;
+    text-align: center;
+    padding: 5px 105px;
+    border-radius: 15px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 198.4px;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}

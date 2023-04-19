@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo API</title>
+    <link rel="icon" href="img/SENAI_São_Paulo_logo.png" type="image/png">
+</head>
+
+<body>
+
+    <div id="conteiner">
+        <h1>Exemplo 1 - Consumindo dados de API REST</h1>
+        <p>
+            O objetivo desse exemplo é consumir os dados provenientes de uma API REST e exibir
+            esses dados em uma página HTML dinamicametne gerada a partit do JavaScript.
+        </p>
+
+        <hr>
+
+        <h3>Dados da API</h3>
+        <p>
+            <button id="btnObterDados" type="button" onclick="carregarDados();">Obter Dados</button>
+        </p>
+
+        <div id="div-erro">...</div>
+        <div id="dados">
+            <table id="tabela-dados">
+                <thead>
+                    <tr>
+                        <th>CÓDIGO</th>
+                        <th>MOEDA</th>
+                    </tr>
+                </thead>
+                <tbody id="linhas"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

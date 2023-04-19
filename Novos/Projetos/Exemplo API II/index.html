@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 2 - Consumindo API REST</title>
+    <link rel="icon" href="img/SENAI_São_Paulo_logo.png" type="image/png">
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1>Exemplo 2 - Consumindo uma API REST</h1>
+
+        <p>
+            O objetivo desse exemplo é consumir dados provenientes 
+            de uma API REST e utilizar esses dados para gerar um gráfico
+        </p>
+
+        <hr>
+
+        <h3>Dados da API</h3>
+
+        <p>
+            <button id="btnObterDados" type="buton" 
+            onclick="carregarDados();">Obter Dados</button>
+        </p>
+
+        <div id="div-erro">...</div>
+        <div id="dados">
+
+            <h3>Variação de preços</h3>
+            <div id="grafico-precos" class="area-grafico"></div>
+            <h3>Coluna de negociações</h3>
+            <div id="grafico-volume" class="area-grafico"></div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

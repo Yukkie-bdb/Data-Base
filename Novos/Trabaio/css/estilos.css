@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para o EXEMPLO 1 */
+
+#lampada {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#botoes-lampada {
+    display: flex;
+    margin: 30px 0;
+}
+
+#botoes-lampada button {
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/* Estilo para o EXEMPLO 2 */
+
+#tagarela {
+    background-color: white;
+    width: 80%;
+    font-size: 50px;
+    padding: 10px auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#btnFalar{
+    width: 200px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/* Estilo para o EXEMPLO 3 */
+
+#frmExemplo input{
+    padding: 5px;
+}
+
+#frmExemplo{
+    padding: 5px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <title>Exemplo JavaScript</title>
+</head>
+<body>
+
+    <!-- EXEMPLO 1 - Alterando cores de uma DIV -->
+
+    <h1>Brincando com botões</h1>
+    <div id="lampada"></div>
+    <!-- <div id="botoes-lampada">
+        <button onclick="acenderVerde();">Verde</button>
+        <button onclick="acenderVermelho();">Vermelho</button>
+        <button onclick="acenderAzul();">Azul</button>
+        <button onclick="acenderAmarelo();">Azul</button>
+        <button onclick="apagar();">Apagar</button>
+    </div> -->
+
+    <div id="botoes-lampada">
+        <button onclick="acender('green');">Verde</button>
+        <button onclick="acender('red');">Vermelho</button>
+        <button onclick="acender('blue');">Azul</button>
+        <button onclick="acender('yellow');">Yellow</button>
+        <button onclick="acender('white');">Apagar</button>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- EXEMPLO 2 - Alterando conteudo de uma DIV -->
+    <h1>Brincando com conteúdos</h1>
+    <div id="tagarela">...</div>
+    <button id="btnFalar" onclick="falar();">Fala alguma coisa ai! Seu BETA, VOCÊ É BETA!! HAHAHAHA</button>
+
+    <br>
+    <hr>
+
+    <h1>Validando formulário</h1>
+    <form id="frmExemplo" name="frmExemplo">
+        <input type="inNome" name="inNome" type="text" placeholder="Digite o seu nome">
+
+        <input id="inIdade" name="inIdade" type="number" placeholder="Dogote sua idade">
+
+        <button id="btnEnviar" type="button" onclick="validarDados();">ENVIAR</button>
+    </form>
+
+<br>
+<hr>
+
+
+
+
+</body>
+    <script src="js/scripts.js"></script>
+</html>

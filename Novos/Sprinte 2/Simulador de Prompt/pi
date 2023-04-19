@@ -1,0 +1,8 @@
+var pi2 = Math.PI;
+var pi = 4.5;
+
+console.log(pi);
+
+console.log('Arredondando para o inteiro mais proximo:', Math.round(pi))
+console.log('Arredondando para cima:', Math.ceil(pi))
+console.log('Arredondando para cima:', Math.floor(pi))
