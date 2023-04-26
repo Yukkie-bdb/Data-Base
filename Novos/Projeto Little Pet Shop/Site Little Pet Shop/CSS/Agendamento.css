@@ -297,37 +297,37 @@ hr {
         flex-wrap: wrap;
     }
 
-    #cinco {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+        #cinco {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-    #cinco li {
-        flex: 1;
-        flex-basis: 25%;
-    }
+        #cinco li {
+            flex: 1;
+            flex-basis: 25%;
+        }
 
-    #menuhorizontal li a {
-        padding: 10px 4px;
-        font-size: 20px;
-    }
+        #menuhorizontal li a {
+            padding: 10px 4px;
+            font-size: 20px;
+        }
 
 
-    #cinco a {
-        display: block;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: #333;
+        #cinco a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
 
-        border: 1px solid #2D6CD6;
-        border-radius: 5px;
-        margin: 5px;
+            border: 1px solid #2D6CD6;
+            border-radius: 5px;
+            margin: 5px;
 
-    }
+        }
 
     /* ----------------------- */
 
