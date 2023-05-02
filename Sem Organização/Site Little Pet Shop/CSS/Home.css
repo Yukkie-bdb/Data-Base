@@ -1,0 +1,672 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: #bbe5ff;
+}
+
+footer {
+    background-color: #609dc5;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* INICIO --------------- HEADER CONFIGS --------------- */
+
+#boximg {
+    display: flex;
+    height: 200px;
+    text-align: center;
+
+}
+
+#logoeimg {
+    height: 24vh;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#logo-title {
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+}
+
+
+#idheader {
+    align-items: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+#imglogo {
+    max-width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+    justify-content: center;
+}
+
+/* FIM --------------- HEADER CONFIGS --------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* INICIO --------------- HEADER NAV --------------- */
+
+#cinco {
+    display: flex;
+    justify-content: center;
+}
+
+#menuhorizontal ul {
+    background-color: #609dc5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menuhorizontal li a {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#menuhorizontal li {
+    text-align: center;
+}
+
+#menuhorizontal li:last-child {
+    float: right;
+    margin-left: auto;
+    border-right: none;
+}
+
+#menuhorizontal li a:hover {
+    background-color: #00B483;
+}
+
+#menuhorizontal {
+    padding: 0 0 10px 0;
+}
+
+/* FIM --------------- HEADER NAV --------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* INICIO --------------- CONTEUDO SITE --------------- */
+
+/* INICIO --------------- BASICO --------------- */
+
+#container2 h1 {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: bold;
+    font-size: 50px;
+    margin: 20px 40px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+    text-decoration: underline;
+}
+
+#container {
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    display: flex;
+    font-size: 35px;
+    margin-right: 100px;
+}
+
+.botao-formula {
+    color: white;
+    background-color: #00b384;
+    width: 245px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 36px;
+    margin: 0 60px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
+
+.caixa0 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mil-e-setenta-e-sete-por-cento-e-cinquenta {
+    width: 1077px;
+    height: 150px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.cadastro {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #bbe5ff;
+    margin: 50px auto;
+    width: 80%;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+}
+
+.cadastro p {
+    margin: 0;
+}
+
+/* FIM --------------- BASICO --------------- */
+
+/* INICIO--------------- BEM-VINDO --------------- */
+
+#bem-vindo {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 75px 0;
+    width: 90vw;
+    flex-direction: column;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+}
+
+#bemdindo {
+    font-size: 50px;
+    text-decoration: underline;
+
+    background-color: #AAD0E8;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    padding: 1px 10px 0 10px;
+    margin: 0;
+}
+
+#img-home {
+    width: auto;
+    height: 50vh;
+}
+
+#bemvindotexto {
+    text-align: justify;
+}
+
+/* FIM --------------- BEM-VINDO --------------- */
+
+/* INICIO--------------- CUPOM E CADASTRO --------------- */
+
+#osdoisjuntos {
+    background-color: #609dc5;
+    padding: 10px 0 25px 0;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+}
+
+#cupom {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+
+#img1 {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: url(image.png);
+}
+
+#img2 {
+    width: 100%;
+}
+
+#clique {
+    background-color: white;
+    background: url(../Imagens/imagefundo.png);
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 25px;
+}
+
+#cliqueaqui {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF;
+
+}
+
+/* FIM --------------- CUPOM E CADASTRO --------------- */
+
+/* INICIO --------------- PET FELIZ --------------- */
+
+#botao-formula-feliz {
+    color: white;
+    background-color: #00b384;
+    width: auto;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 36px;
+    margin: 0 60px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
+
+#Faça-feliz {
+    justify-content: center;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 75px 0;
+    width: 90vw;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+}
+
+#img-pet-feliz {
+    width: auto;
+    height: 70vh;
+}
+
+#textofeliz {
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#texto-pet-feliz {
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin: auto 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 15px 10px 15px;
+}
+
+/* FIM --------------- PET FELIZ --------------- */
+
+/* INICIO--------------- COMENTARIO --------------- */
+
+#comentariopet {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tomastoto {
+    margin-top: 52px;
+}
+
+/* FIM --------------- COMENTARIO --------------- */
+
+
+/* ------------------------------------------------------ RESPOSIVIDADE --------------------------------------------------------------------- */
+
+
+@media (max-width: 767px) {
+
+    .cadastro {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    #botao-formula-feliz {
+
+        height: 150px;
+
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {
+        font-size: 100px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #container2 {
+        width: 100%;
+    }
+
+    #Faça-feliz {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    #texto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mil-e-setenta-e-sete-por-cento-e-cinquenta {
+        width: 90%;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        width: 100%;
+    }
+
+    #menuhorizontal li a {
+        padding: 10px 4px;
+        font-size: 20px;
+    }
+
+    #img-pet-feliz {
+        width: 0%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    #osdoisjuntos {
+        width: 100vw;
+        box-shadow: none;
+    }
+
+    .caixa0 {
+        width: 100%;
+        margin: 0;
+    }
+
+    #bemvindotexto {
+        font-size: 20px;
+        padding: 0 23px;
+
+
+    }
+
+    #cliqueaqui {
+        font-size: 20px;
+    }
+
+    #comentariopet {
+        font-size: 25px;
+        width: 90vw;
+    }
+
+    .botao-formula {
+        width: 125px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #img-home {
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    #texto-pet-feliz {
+        margin: 0;
+        padding: 0;
+    }
+
+    #container2 h1 {
+        font-size: 25px;
+        align-self: center;
+        text-decoration: none;
+        text-shadow: 2px 2px rgba(0, 0, 0, 1);
+    }
+
+    #bem-vindo {
+        width: 80%;
+        padding: 10px 0;
+    }
+
+    #textofeliz {
+        padding: 10px 0;
+        width: 80vw;
+    }
+
+    #textofeliz h1 {
+        padding: 10px 0;
+        width: 0%;
+
+    }
+
+    #bemdindo {
+        width: 80%;
+
+    }
+}
+
+/* ------------------------------------------------------ RESPOSIVIDADE 2 --------------------------------------------------------------------- */
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+    .cadastro {
+        width: 90vw;
+    }
+
+    #botao-formula-feliz {
+        height: 150px;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {
+        font-size: 100px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #container2 {
+        width: 100%;
+    }
+
+    #Faça-feliz {
+        /* width: 80%; */
+        flex-direction: column;
+    }
+
+    #texto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mil-e-setenta-e-sete-por-cento-e-cinquenta {
+        width: 100%;
+    }
+
+    #logoeimg {
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        width: 100%;
+    }
+
+    #menuhorizontal li a {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+
+    #img-pet-feliz {
+        width: 100%;
+    }
+
+    #osdoisjuntos {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .caixa0 {
+        width: 80%;
+    }
+
+    #bemvindotexto {
+        font-size: 30px;
+        padding-right: 25px;
+    }
+
+    #bemdindo {
+        font-size: 40px;
+    }
+
+    #cliqueaqui {
+        font-size: 30px;
+    }
+
+    #textofeliz {
+        font-size: 35px;
+
+    }
+
+    #comentariopet {
+        font-size: 35px;
+    }
+
+    .botao-formula {
+        width: 175px;
+        height: 75px;
+        border-radius: 10px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    #img-home {
+        width: 100%;
+        height: auto;
+    }
+}

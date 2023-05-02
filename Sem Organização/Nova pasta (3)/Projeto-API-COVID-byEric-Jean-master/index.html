@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Projeto API covid</title>
+    <link rel="icon" href="img/covidnao.png" type="image/png">
+</head>
+
+
+<header>
+
+    <div id="titulo"> <img src="img/covid.png" id="imagemcovid"> PROJETO API COVID-19</div>
+
+    <nav id="menuhorizontal">
+
+        <a href="index.html">Painel De Casos</a>
+        <a href="sobre.html">Sobre o Projeto</a>
+        <a href="equipe.html" id="naoUsar">Equipe de DEV's</a>
+    </nav>
+
+
+</header>
+
+<body id="bodyindex">
+
+    <div id="container">
+
+        <!-- --------- -->
+
+        <div id="boxnotopo">
+            <div id="boxazul"></div>
+
+            <div id="boxtexto">
+                <p id="pp1"> <b> MAPAS E INFORMAÇÕES </b> sobre casos de Covid-19 pelo mundo</p>
+                <p id="pp3">* Dados disponibilizados por <a href="https://covid19-brazil-api-docs.vercel.app/">
+                        https://covid19-brazil-api-docs.vercel.app/ </a> e atualizados em
+                    tempo REAL</p>
+            </div>
+        </div>
+
+        <!-- --------- -->
+
+        <div id="erro"></div>
+
+        <div class="caixaMapa1">
+
+            <div id="shiuu11">
+                <div class="cinza">
+                    <p id="test"> <b>MAPA MUNDI</b> Mostrando todos os casos confirmados de covid-19 pelo o mundo </p>
+                </div>
+            </div>
+
+            <div id="caixamapa">
+
+                <div id="mapaMundi"></div>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.now.sh/api/report/v1/countries">
+                        https://covid19-brazil-api.now.sh/api/report/v1/countries </a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- --------- -->
+
+        <div class="caixaMapa1" id="caixinha">
+
+            <div id="caixaPizza">
+                <div id="graficoPizza"></div>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.vercel.app/api/report/v1/countries">
+                        https://covid19-brazil-api.now.sh/api/report/v1/countries </a>
+                </p>
+            </div>
+
+            <div id="shiuu123">
+                <div class="cinza2">
+                    <p id="test2"> <b>MAPA DE PIZZA</b> Mostrando todos os casos <u>Confirmados, Recuperado e Mortes</u>
+                        por
+                        COVID-19 pelo Mundo </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --------- -->
+
+        <div class="caixaMapa1">
+            <div id="shiuu11">
+                <div class="cinza3">
+                    <p id="test3"> <b>TABELA</b><br> Mostrando casos <u>Confirmados, Recuperado, Mortes e
+                            Descartados</u> de
+                        COVID-19 por
+                        estado Brasileiro </p>
+                </div>
+
+            </div>
+
+            <div id="caixatabela">
+                <table id="tabela-dados">
+                    <thead>
+                        <tr>
+                            <th>Sigla</th>
+                            <th>Estado</th>
+                            <th>Casos</th>
+                            <th>Mortes</th>
+                            <th>Suspeitos</th>
+                            <th>Descartados</th>
+                        </tr>
+                    </thead>
+                    <tbody id="barras"></tbody>
+                </table>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.vercel.app/api/report/v1/countries">
+                        https://covid19-brazil-api.vercel.app/api/report/v1 </a>
+                </p>
+            </div>
+
+
+        </div>
+
+        <!-- --------- -->
+
+    </div>
+
+
+
+    <footer>
+        <b>Projeto curso de Desenvolvimento de Sistemas do SENAI sobre o coronavírus 2019 (COVID-19) no Brasil e pelo
+            Mundo</b><br>
+        <a href="https://www.sp.senai.br/" target="_blank"><img src="img/SENAIlogo.png"></a>
+    </footer>
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

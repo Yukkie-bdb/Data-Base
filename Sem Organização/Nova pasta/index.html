@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Projeto API covid</title>
+    <link rel="icon" href="img/SENAI_São_Paulo_logo.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="titulo"> <img src="img/covid.png" id="imagemcovid"> PROJETO API COVID-19</div>
+
+        <nav>
+            <a href="index.html">Painel De Casos</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+            <a href="equipe.html">Equipe de DEV's</a>
+            <!-- <a href="#">Desenvolvedores</a> -->
+        </nav>
+
+    </header>
+
+    <div id="container">
+
+
+        <div id="boxnotopo">
+            <div id="boxazul"></div>
+
+            <div id="boxtexto">
+                <p id="pp1"> <b> MAPAS E INFORMAÇÕES </b> sobre casos de Covid-19 pelo mundo</p>
+                <p id="pp3">* Dados disponibilizados por <a href="https://covid19-brazil-api-docs.vercel.app/">
+                        https://covid19-brazil-api-docs.vercel.app/ </a> e atualizados em
+                    tempo REAL</p>
+            </div>
+        </div>
+
+        <!-- 
+            ----------------------------------------------------------------------
+            ----------------------------------------------------------------------
+         -->
+
+        <div class="caixaMapa1">
+            <div id="shiuu11">
+                <p id="test"> <b>MAPA MUNDI</b> Mostrando todos os casos confirmados de covid-19 pelo o mundo </p>
+
+                <div id="shiuu"> <button class="btn">REGARREGAR MAPA</button> </div>
+            </div>
+            <div id="caixamapa">
+
+                <div id="mapaMundi"></div>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.now.sh/api/report/v1/countries">
+                        https://covid19-brazil-api.now.sh/api/report/v1/countries </a>
+                </p>
+            </div>
+
+        </div>
+
+
+        <!--  -->
+        <div class="caixaMapa1">
+
+            <div id="caixaPizza">
+                <div id="graficoPizza"></div>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.vercel.app/api/report/v1/countries">
+                        https://covid19-brazil-api.now.sh/api/report/v1/countries </a>
+                </p>
+            </div>
+            <div id="shiuu123">
+                <p id="test2"> <b>MAPA DE PIZZA</b> Mostrando todos os casos <u>Confirmados, Recuperado e Mortes</u> por
+                    COVID-19 pelo Mundo </p>
+
+                <div id="shiuu23"> <button class="btn">REGARREGAR MAPA</button> </div>
+            </div>
+
+        </div>
+        <!--  -->
+
+        <div class="caixaMapa1">
+            <div id="shiuu11">
+                <p id="test3"> <b>TABELA</b><br> Mostrando casos <u>Confirmados, Recuperado, Mortes e Descartados</u> de
+                    COVID-19 por
+                    estado brasileiro </p>
+
+                <div id="shiuu3"> <button class="btn">REGARREGAR MAPA</button> </div>
+            </div>
+
+            <div id="caixatabela">
+
+                <div id="tabelaEstados"></div>
+                <p>*Dados disponibilizados pela API
+                    de covid <a href="https://covid19-brazil-api.vercel.app/api/report/v1/countries">
+                        https://covid19-brazil-api.vercel.app/api/report/v1 </a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <b>Projeto curso de Desenvolvimento de Sistemas do SENAI sobre o coronavírus 2019 (COVID-19) no Brasil e pelo
+            Mundo</b>
+        <br>
+        <a href="https://www.sp.senai.br/" target="_blank"><img src="img/SENAIlogo.png"></a>
+
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

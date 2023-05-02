@@ -1,0 +1,516 @@
+/* ---------------------------------------------- */
+/* -------------TOPO DO SITE HEADER-------------- */
+/* ---------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4FBF9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 7px 0;
+    box-shadow: 1px 1px 8px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#titulo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: all .55s ease;
+    border-bottom: 4px solid transparent;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 4px solid green;
+}
+
+#titulo {
+    margin-left: 20px;
+    display: flex;
+}
+
+#imagemcovid:hover {
+    content: url(../img/covidnao.png);
+    width: 48px;
+    margin-left: 2px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 10px 0;
+}
+
+footer img{
+    width: 200px;
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* -------------MIOLO DO SITE-------------- */
+/* ---------------------------------------- */
+
+#mapaMundi {
+    width: 60vw;
+    height: 70vh;
+}
+
+#caixamapa {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    /* width: 900px; */
+    border: 4px solid green;
+    border-radius: 5px 5px 5px 5px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+#caixamapa p{
+    margin: 0 0 0 10px;
+}
+
+#caixamapa a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#caixaMapa1{
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+
+#test{
+    margin: 50px 0 50px 50px;
+    color: black;
+    font-size: 24px;
+    width: 175px;
+}
+
+
+#boxtexto {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+#pp1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    /* color: black;
+    font-weight: bold; */
+}
+
+#pp2 {
+    font-size: 24px;
+
+}
+
+#pp3 {
+    font-size: 18px;
+    color: gray;
+    margin-top: 5px;
+}
+
+#boxazul {
+    width: 30px;
+    height: 142px;
+    background-color: green;
+}
+
+#boxnotopo {
+    display: flex;
+    /* justify-content: center; */
+    margin: 50px auto 50px 50px;
+
+}
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+#caixaPizza {
+    margin: 50px auto 50px 0;
+    justify-content: left;
+    width: 75%;
+    height: auto;
+}
+
+
+
+
+
+#erro{
+    display: none;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+#caixatabela {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+tr{
+    background-color: aqua;
+}
+
+.bonito{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ===========================SOBRE========================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+
+
+
+#caixa1{
+    width: 50%;
+    margin: 100px 0 0 100px;
+    padding: 0 0 5px 5px;
+    border-bottom: 4px solid green;
+    border-left: 4px solid green;
+}
+
+
+
+#subCaixa1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#subCaixa1-2{
+    font-size: 24px;
+}
+
+/* == */
+
+#caixa2{
+    width: 50%;
+    margin: 100px 100px 0 auto ;
+    padding: 5px 5px 0 0;
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+
+
+
+}
+
+#subCaixa2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#subCaixa2-2{
+    font-size: 24px;
+}
+
+/* == */
+
+#caixa3{
+    width: 50%;
+    margin: 100px 0 0 100px;
+    padding: 0 0 5px 5px;
+    border-bottom: 4px solid green;
+    border-left: 4px solid green;
+}
+
+#subCaixa3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#subCaixa3-2{
+    font-size: 24px;
+}
+
+/* == */
+
+#caixa4{
+    width: 50%;
+    margin: 100px 100px 0 auto ;
+    padding: 5px 5px 0 0;
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+
+
+
+}
+
+#subCaixa4{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#subCaixa4-2{
+    font-size: 24px;
+}
+
+/* == */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ===========================SOBRE========================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ==========================Equipe========================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+
+#equipes{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+
+#equipes img{
+    margin: 0 50px;
+}
+
+#textoEquipe{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+#pessoa1{
+    font-size: 24px;
+    text-align: center;
+
+}
+
+#pessoa1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#pessoa1 a:hover{
+    text-decoration: underline;
+}
+
+#pessoa2{
+    font-size: 24px;
+    text-align: center;
+}
+
+#pessoa2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#pessoa2 a:hover{
+    text-decoration: underline;
+}
+
+.bordaesquerda{
+    border-bottom: 4px solid green;
+    border-left: 4px solid green;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    transition: all .55s ease;
+}
+
+.bordadireita{
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    /* transition: all .55s ease; */
+}
+
+/*  */
+/* 
+.bordaesquerda:hover {
+    border-top: 4px solid green;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid green;
+}
+
+
+
+.bordadireita:hover{
+    border-bottom: 4px solid green;
+    border-left: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-right: 4px solid green;
+} */
+
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ===========================SOBRE========================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
